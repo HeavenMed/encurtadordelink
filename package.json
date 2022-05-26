@@ -1,0 +1,20 @@
+{
+  "name": "api-encurtador-de-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/shortid": "^0.0.29"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16"
+  }
+}
